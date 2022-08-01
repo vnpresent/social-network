@@ -1,0 +1,21 @@
+<?php
+
+return[
+    'key'=>[
+        'admin',
+        'comment',
+        'permission',
+        'post',
+        'role',
+        'tag',
+        'user',
+    ],
+    'list'=>
+    [
+        'index',
+        'show',
+        'create',
+        'update',
+        'delete',
+    ],
+];
