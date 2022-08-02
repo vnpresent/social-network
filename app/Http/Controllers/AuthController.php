@@ -54,8 +54,8 @@ class AuthController extends Controller
         return response()->json($this->authRepository->refresh());
     }
 
-    public function me(): JsonResponse
+    public function me()
     {
-        return response()->json($this->authRepository->me());
+
     }
 }
